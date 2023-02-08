@@ -79,8 +79,7 @@ overwrites TV Movies by treating them as a movie, instead of a TV show
 ```
 Example:python3 /path/to/app.py remux --outargs "--split chapters:13,22,33,45,54"
 
-Passes mkvtoolnix global options to the final mkvtoolnix command
-Read the global option section here: https://mkvtoolnix.download/doc/mkvmerge.html#mkvmerge.description
+Passes mkvtoolnix options to the final mkvtoolnix command
 ```
 
 \--skipnamecheck
