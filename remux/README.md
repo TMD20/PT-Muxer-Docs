@@ -99,6 +99,20 @@ Example:python3 /path/to/app.py remux --episodename
 Searches Wiki or TMDB for episode titles, adds to filename
 ```
 
+\--scale
 
+```python
+Example:python3 /path/to/app.py remux --scale native
+
+Scale down video for test on local machine
+i.e match chapters to i frames
+ choices ->  avisynth, native
+ 
+ avisynth: uses avisynth to output video with frame information via ffms2
+ may require avisynth to be installed
+ 
+ native: uses ffmpeg to scale video down to 1/4
+
+```
 
 ###
