@@ -79,7 +79,8 @@ overwrites TV Movies by treating them as a movie, instead of a TV show
 ```
 Example:python3 /path/to/app.py remux --outargs "--split chapters:13,22,33,45,54"
 
-Passes mkvtoolnix options to the final mkvtoolnix command
+Passes mkvtoolnix global options to the final mkvtoolnix command
+Read the global option section here: https://mkvtoolnix.download/doc/mkvmerge.html#mkvmerge.description
 ```
 
 \--skipnamecheck
@@ -98,20 +99,6 @@ Example:python3 /path/to/app.py remux --episodename
 Searches Wiki or TMDB for episode titles, adds to filename
 ```
 
-\--scale
 
-```python
-Example:python3 /path/to/app.py remux --scale native
-
-Scale down video for test on local machine
-i.e match chapters to i frames
- choices ->  avisynth, native
- 
- avisynth: uses avisynth to output video with frame information via ffms2
- may require avisynth to be installed
- 
- native: uses ffmpeg to scale video down to 1/4
-
-```
 
 ###

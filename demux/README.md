@@ -201,3 +201,11 @@ Example: python3 /path/to/app.py -demux sourcepath outputpath --title Avengers
 Manually enter the title of the source being demuxed
 ```
 
+\--extra
+
+```
+Example: python3 /path/to/app.py -demux sourcepath outputpath --extra /media
+scan directory for files
+Generates a list with basic info on found file
+```
+
