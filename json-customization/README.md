@@ -123,3 +123,34 @@ This section is split into 3 subsection for the different track types. Video, Su
 * original: \[bool] Turn on for tracks in the movies original language,set the Original language flag. Applies only to audio tracks
 * sdh:\[bool] Turns on the Hearing impaired flag. Applies only to sub tracks
 * textdesc: \[bool] For subtitle tracks with text-based descriptions for the visually impaired that can be read via a screen reader. Applies only to sub tracks
+* extra\_options:\[string] add extra mkvmerge commands to track arguments are space separated
+* notes:\[string] adds some notes about the track or things you changed&#x20;
+
+
+
+#### **6. Extra\_Tracks**
+
+Section for tracks added via the --extra command during demuxing
+
+See: [https://ptmuxer.gitbook.io/api-docs/advanced/adding-extra-tracks](https://ptmuxer.gitbook.io/api-docs/advanced/adding-extra-tracks)
+
+Keys
+
+* filename: auto retrieved
+* site\_title : default=placeholder
+* bdinfo\_title :  default=placeholder
+* langcode :  default=null
+* lang :  default=null
+* default :  default=false
+* forced :  default=false
+* notes default="Enter you own nots here"
+* extra\_options= default=null
+* type= default=null
+
+#### **Unique Keys**
+
+These keys are unique to this section
+
+* enabled: \[bool] Whether or not to enable this extra track
+
+####
