@@ -47,7 +47,7 @@ you can pass this to PT-Muxer like
 
 
 
-* type: \[string] whether this is an audio, video, sub-track. This value should not be changed as it is used during the "remux" process
+* type: \[string] whether this is an audio, video, sub. This value should not be changed as it is used during the "remux" process
 * commentary: \[bool] Sets the Commentary flag to yes. Should be used for all audio and subtitle tracks that are commentary
 * auditorydesc:\[bool] Turn on for tracks that include auditory descriptions, sets the Visual impaired flag. Applies only to audio tracks
 * original: \[bool] Turn on for tracks in the movies original language,set the Original language flag. Applies only to audio tracks

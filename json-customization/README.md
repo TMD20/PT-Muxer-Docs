@@ -135,7 +135,7 @@ See: dd
 
 Keys
 
-* filename: auto retrived
+* filename: auto retrieved
 * site\_title : default=placeholder
 * bdinfo\_title :  default=placeholder
 * langcode :  default=null
@@ -143,13 +143,13 @@ Keys
 * default :  default=false
 * forced :  default=false
 * notes default="Enter you own nots here"
-* extra\_options= default=""
+* extra\_options= default=null
+* type= default=null
 
 #### **Unique Keys**
 
 These keys are unique to this section
 
 * enabled: \[bool] Whether or not to enable this extra track
-* type: \[string]: What type of track is this must be audio,video, sub or the track will not be added
 
 ####
