@@ -37,6 +37,7 @@ you can pass this to PT-Muxer like
 
 ### Keys
 
+* enabled: \[bool] Whether or not to enable this extra track                                                                              default=false
 * langcode: \[string:2 char] used by mkvmerge to set track language. This is used to set the track language in "remux" mode                                                                                                                       default=null
 * lang: \[string] Translation of langcode to the actual language. This is for convenience, and has no effect on "remux" mode                                                                                                                  default=null
 * filename: \[string] auto retrieved  name of filename used when scanning dir.                                                            default=autoretrived
@@ -51,7 +52,7 @@ you can pass this to PT-Muxer like
 * textdesc: \[bool] For subtitle tracks with text-based descriptions for the visually impaired that can be read via a screen reader. Applies only to sub tracks                                                                      default=false
 * extra\_options:\[string] add extra mkvmerge commands                                                                    default=null
 * default : \[bool] whether to set the default flag in mkv.                                                                         default=false
-  * notes:\[string] adds some notes about the track or things you changed                               default="Enter you own notes here"
+* notes:\[string] adds some notes about the track or things you changed                               default="Enter you own notes here"
 *   extra\_options: \[string] add extra mkvmerge commands to track arguments are space separated&#x20;
 
     default=null
