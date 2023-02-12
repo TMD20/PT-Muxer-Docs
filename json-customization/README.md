@@ -123,7 +123,7 @@ This section is split into 3 subsection for the different track types. Video, Su
 * original: \[bool] Turn on for tracks in the movies original language,set the Original language flag. Applies only to audio tracks
 * sdh:\[bool] Turns on the Hearing impaired flag. Applies only to sub tracks
 * textdesc: \[bool] For subtitle tracks with text-based descriptions for the visually impaired that can be read via a screen reader. Applies only to sub tracks
-* extra\_options:\[string] add extra mkvmerge commands
+* extra\_options:\[string] add extra mkvmerge commands arguments are space seperated
 
 
 
@@ -135,19 +135,33 @@ This is meant for adding for example subtitles that from another mkv that you ha
 
 Most keys will have placeholders that you will have to manually change
 
+Additionally some keys will only effect some track types
+
+
+
+A extra track should have the following values set if enabled is true
+
+* site\_title
+* langcode or language
+* the correct type&#x20;
+
+Additionally it is a good idea to look at&#x20;
+
+
+
 
 
 #### Keys
 
-* filename
-* site\_title
-* bdinfo\_title
-* langcode
-* lang
-* default
-* forced
-* notes
-* extra\_options
+* filename: auto retrived
+* site\_title : default=placeholder
+* bdinfo\_title :  default=placeholder
+* langcode :  default=null
+* lang :  default=null
+* default :  default=false
+* forced :  default=false
+* notes default="Enter you own nots here"
+* extra\_options= default=""
 
 #### **Unique Keys**
 
@@ -155,3 +169,5 @@ These keys are unique to this section
 
 * enabled: \[bool] Whether or not to enable this extra track
 * type: \[string]: What type of track is this must be Audio,Video, Sub or will be ignored
+
+####
