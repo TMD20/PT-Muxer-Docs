@@ -26,3 +26,4 @@
   * [Conty Install](advanced/conty-install.md)
   * [Advanced Config Options](advanced/advanced-config-options.md)
   * [Java Install](advanced/java-install.md)
+  * [Adding Extra Tracks](advanced/adding-extra-tracks.md)
