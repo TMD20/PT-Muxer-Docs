@@ -123,33 +123,3 @@ This section is split into 3 subsection for the different track types. Video, Su
 * original: \[bool] Turn on for tracks in the movies original language,set the Original language flag. Applies only to audio tracks
 * sdh:\[bool] Turns on the Hearing impaired flag. Applies only to sub tracks
 * textdesc: \[bool] For subtitle tracks with text-based descriptions for the visually impaired that can be read via a screen reader. Applies only to sub tracks
-* extra\_options:\[string] add extra mkvmerge commands arguments are space seperated
-
-
-
-#### **6. Extra\_Tracks**
-
-Section for tracks added via the --extra command during demuxing
-
-See: dd
-
-Keys
-
-* filename: auto retrived
-* site\_title : default=placeholder
-* bdinfo\_title :  default=placeholder
-* langcode :  default=null
-* lang :  default=null
-* default :  default=false
-* forced :  default=false
-* notes default="Enter you own nots here"
-* extra\_options= default=""
-
-#### **Unique Keys**
-
-These keys are unique to this section
-
-* enabled: \[bool] Whether or not to enable this extra track
-* type: \[string]: What type of track is this must be Audio,Video, Sub or will be ignored
-
-####
