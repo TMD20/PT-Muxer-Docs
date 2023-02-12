@@ -201,3 +201,12 @@ Example: python3 /path/to/app.py -demux sourcepath outputpath --title Avengers
 Manually enter the title of the source being demuxed
 ```
 
+\--extra&#x20;
+
+```
+Example: python3 /path/to/app.py -demux sourcepath outputpath --extra /media
+scan directory for files creates a basic dictionary list 
+Generates a list with basic info on found file
+See: Section 6 in https://ptmuxer.gitbook.io/api-docs/json-customization
+```
+
