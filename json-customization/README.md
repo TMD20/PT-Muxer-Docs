@@ -131,27 +131,9 @@ This section is split into 3 subsection for the different track types. Video, Su
 
 Section for tracks added via the --extra command during demuxing
 
-This is meant for adding for example subtitles that from another mkv that you have extracted
+See: dd
 
-Most keys will have placeholders that you will have to manually change
-
-Additionally some keys will only effect some track types
-
-
-
-A extra track should have the following values set if enabled is true
-
-* site\_title
-* langcode or language
-* the correct type&#x20;
-
-Additionally it is a good idea to look at&#x20;
-
-
-
-
-
-#### Keys
+Keys
 
 * filename: auto retrived
 * site\_title : default=placeholder
